@@ -1,0 +1,167 @@
+/* PAGINA DE EVENTOS */
+
+.destaques{
+    padding-bottom: 22em;
+}
+
+
+.dark-curta-test{
+    background: #101034;
+    height: 30em;
+}
+.btn-slide{
+    padding-top: 2em !important;
+}
+.btn-slide:hover{
+    cursor: pointer;
+}
+/*/
+/* Menu */
+.dark-nav{
+    background-color: #1d2128;
+}
+
+.dark-nav ul li:hover{
+    border-bottom: 1px solid #1991eb;
+}
+
+/* Formularios de pesquisa */
+.form-search select{
+    height: 2.5em;
+    background: #1d2128;
+    border: 1px solid #1991eb;
+    color: #1991eb;
+    border-radius: .5em;
+}
+
+.form-search input[type='search']{
+    height: 2.5em !important;
+}
+
+.form-search i{
+   padding: .2em 0 0 .2em !important;
+   color: #1991eb;
+}
+/* #Cores */
+
+.dark-curta1{
+    background-color:#1e2228 !important ;
+}
+.dark-curta2{
+    background-color: #252b33 !important;
+}
+.dark-curta-gradiant{
+    background-image: linear-gradient(to right, #20262d, #20262d, #21262d, #21262d, #21262d, #21262d, #21262d, #21262d, #21262d, #21262d, #20262d, #20262d) !important;
+}
+
+.dark-curta-grad{
+    background-image: linear-gradient(to top, #21262d, #1b2330, #162032, #121c34, #101835, #101737, #111539, #12133a, #13143e, #141641, #141745, #151949);
+    height: 30em;
+}
+
+.dark-card{
+    background-color: #252b33 !important;
+}
+/* Cards */
+.evento-desc span{
+    font-size: 1.4em !important; 
+    color: #1991eb !important;
+    font-weight: bold;
+}
+
+.evento-desc p{
+    font-size: .9em !important;
+    color: rgba( 255, 255, 255, .8) !important;
+}
+
+.dt_evento{
+    font-size: 1.1em;
+    color: #1991eb !important;
+    background-image: url(../_img/calendar.png) no-repeat 100% 100% 20px 20px!important;
+}
+
+
+/*PAGINA DE LOGIN*/
+.login{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.login-corpo{
+    background-image: linear-gradient(to left bottom, #03017e, #01158a, #002496, #0031a2, #003ead, #004bb8, #0057c2, #0064cc, #0073d8, #0083e2, #0092ec, #01a1f5);
+}
+
+.ative-login{
+    border-bottom: 1px solid blue;
+}
+.desative-login{
+    color: grey;
+}
+
+/*Barras para escolha de usuario*/
+.login-escolha div.user{
+    color:#40c4ff ;
+    padding: 1em;
+}
+
+
+
+/*formularios*/
+.form-login input[type=email]{
+    border-bottom: 1px solid #40c4ff !important;
+    color: #40c4ff;
+
+}
+
+.form-login i{
+    color: #40c4ff;
+}
+
+
+
+.form-login input[type=password]{
+    border-bottom: 1px solid #40c4ff !important;
+    color: #40c4ff !important;
+}
+
+
+/*Pagina de cadastro*/
+
+.test{
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+
+
+
+
+/*Dashboard do PJ*/
+.body-dash{
+    margin: 0;
+    padding-left: 300px;
+    width: 100%;
+
+}
+@media only screen and (max-width : 992px) {
+    .body-dash {
+      padding-left: 0;
+    }
+}
+@media only screen and(min-width: 1080px){
+  .body-dash{
+  margin: 0;
+   padding-left: 500px;
+   width: 100%;
+
+  }
+}
+
+.home-dash{
+    height: 18em;
+    padding: 1em;
+}
+
+.home-dash:hover{
+    cursor: pointer;
+}
